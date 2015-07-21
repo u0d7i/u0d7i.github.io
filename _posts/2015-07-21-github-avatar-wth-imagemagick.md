@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "gitgub avatar with ImageMagick"
+title: "github avatar with ImageMagick"
 date: 2015-07-21 19:20
 ---
 
