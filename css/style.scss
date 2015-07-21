@@ -42,14 +42,13 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom:  .5rem;
-  font-weight:    bold;
+  font-weight:    normal;
   line-height:    1.25;
   color:          $headings-color;
   text-rendering: optimizeLegibility;
 }
 h1 { 
-  font-size: 240%;
-  //font-size: 2rem;
+  font-size: 2rem;
 }
 h2 {
   margin-top: 1rem;
