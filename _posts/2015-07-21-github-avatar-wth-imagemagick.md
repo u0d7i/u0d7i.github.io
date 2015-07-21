@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "github avatar with ImageMagick"
-date: 2015-07-21 19:20
+date: 2015-07-21 19:42 +02:00
 ---
 
 Creating github avatar image with ImageMagick:
