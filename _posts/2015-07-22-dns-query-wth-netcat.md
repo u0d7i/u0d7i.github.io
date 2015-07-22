@@ -130,9 +130,9 @@ Domain Name System (response)
 
 String contents in detail:
 
-| \x13\x37                                  | Transaction ID
-| \x01\x00\x00\x01\x00\x00\x00\x00\x00\x00  | Flags for standard, recursive, 1-question query
-| \x13google-public-dns-a\x06google\x03com  | Query string, null-terminated, each section starts with length number
-| \x00\x00\x01\x00\x01                      | Query type (A) and class (IN)
+| \x13\x37                                     | Transaction ID
+| \x01\x00\x00\x01\x00\x00\x00\x00\x00\x00     | Flags for standard, recursive, 1-question query
+| \x13google-public-dns-a\x06google\x03com\x00 | Query string, null-terminated, each section starts with length number
+| \x00\x01\x00\x01                             | Query type (A) and class (IN)
 
 See [RFC 1035](https://www.ietf.org/rfc/rfc1035.txt).
