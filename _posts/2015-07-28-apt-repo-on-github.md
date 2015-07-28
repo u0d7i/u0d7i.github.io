@@ -15,7 +15,7 @@ $ dpkg-deb -e cryptsetup_1.0.7-12maemo0_armel.deb cryptsetup/DEBIAN
 ~~~
 
 After modifications (deoptifying in this case) and merging, editing control files in DEBIAN/ subdir
-(see [Debian Policy ManualDebian Policy Manual](https://www.debian.org/doc/debian-policy/ch-controlfields.html) for details on
+(see [Debian Policy Manual](https://www.debian.org/doc/debian-policy/ch-controlfields.html) for details on
 Control files and their fields), build it to a new .deb:
 
 ~~~
@@ -25,7 +25,7 @@ $ dpkg-deb -b cryptsetup/ ./
 In this case new package is created in current dir, named by fields in DEBIAN/control file:
 
 ~~~
-dpkg-deb: building package `cryptsetup-deopt' in `.//cryptsetup-deopt_1.0.7-maemo0_armel.deb'.
+dpkg-deb: building package 'cryptsetup-deopt' in './/cryptsetup-deopt_1.0.7-maemo0_armel.deb'.
 ~~~
 
 You can define package filename instead of ./ or omit it (package is named by the dir then).
