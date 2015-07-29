@@ -62,7 +62,7 @@ Domain Name System (query)
 ~~~
 
 In hex dump we can see DNS payload starting with transaction ID "b6 4d" at 002c.
-With this sample we can easyly encode our own DNS query using hex ASCII escape chars,
+With this sample we can easily encode our own DNS query using hex ASCII escape chars,
 and pass it to netcat (reply is piped to hexdump):
 
 ~~~
@@ -81,7 +81,7 @@ tcpdump shows:
 11:02:33.750337 IP 8.8.8.8.53 > 10.120.149.34.55204: 4919 1/0/0 A 8.8.8.8 (64)
 ~~~
 
-We see valid DNS session with ID 4919 (decimal for our 0x1337, crafted in first two octets of our string), and we can decode reply packet from from server:
+We see valid DNS session with ID 4919 (decimal for our 0x1337, crafted in first two octets of our string), and we can decode reply packet from server:
 
 ~~~
  tshark -r /tmp/test.cap -V -x -R frame.number==4
