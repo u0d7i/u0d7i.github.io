@@ -4,7 +4,7 @@ title: "DNS query with netcat"
 date: 2015-07-22 17:00
 ---
 
-First, set up tcpdump for traffic capture to file and and display to stdout at the same time:
+First, set up tcpdump for traffic capture to file and display to stdout at the same time:
 
 ~~~
 $ tcpdump -n -U -w - -i gprs0 | tee /tmp/test.cap | tcpdump -n -r -
