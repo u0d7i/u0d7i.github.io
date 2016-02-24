@@ -10,8 +10,7 @@
 
 html {
   font-family: $font-family;
-  font-size:   20px;
-  line-height: 1.5;
+  font-size:   1em;
 }
 
 body {
@@ -42,12 +41,11 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom:  .5rem;
-  font-weight:    normal;
-  line-height:    1.25;
+  font-weight:    bold;
   color:          $headings-color;
   text-rendering: optimizeLegibility;
 }
-h1 { 
+h1 {
   font-size: 2rem;
 }
 h2 {
@@ -172,7 +170,8 @@ table {
 //   -- centers page content
 
 .container {
-  max-width: 38rem;
+  width: 85%;
+  min-width: 480px;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
