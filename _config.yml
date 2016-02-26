@@ -15,6 +15,10 @@ url:  'http://u0d7i.github.io'
 
 markdown: kramdown
 
+# Programmer's world compliant config
+kramdown:
+      smart_quotes: ["apos", "apos", "quot", "quot"]
+
 sass:
   sass_dir: css
   style:    expanded
