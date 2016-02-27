@@ -133,8 +133,8 @@ To build mine I used:
 Stainless steel rulers form a disc part of the discone, and are connected with a screw through the plug to the core of the coax cable.
 Hanger wires, mounted with clamps to the pipe, forms the cone part, and are connected to the shield.
 
-<p><a href="/img/sdr-2a.png">
-<img src="/img/sdr-2a.png" width="400"/></a></p>
+<p><a href="/img/sdr-2.png">
+<img src="/img/sdr-2.png" width="400"/></a></p>
 
 <p><a href="/img/sdr-6.png">
 <img src="/img/sdr-6.png" width="400"/></a></p>
