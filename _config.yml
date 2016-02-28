@@ -33,5 +33,5 @@ safe: true
 lsi: false
 
 gems: [jekyll-paginate]
-paginate_path: "./page:num"
+paginate_path: "/page:num"
 paginate: 5
