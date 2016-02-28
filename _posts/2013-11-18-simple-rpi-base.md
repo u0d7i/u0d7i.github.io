@@ -23,5 +23,5 @@ I've made a base for the board:
 </a></p>
 
 <p><a href="/img/pi-base-4.png">
-<img src="/img/pi-base-4.png" width="400"/>i
+<img src="/img/pi-base-4.png" width="400"/>
 </a></p>
