@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TITLE: PC setup: XP/Debian dualboot with full disk encryption (C:/D: TrueCrypt + dm-crypt)"
+title: "PC setup: XP/Debian dualboot with full disk encryption (C:/D: TrueCrypt + dm-crypt)"
 date: 2013-04-27 19:53
 ---
 
