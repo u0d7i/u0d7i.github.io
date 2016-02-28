@@ -35,3 +35,5 @@ lsi: false
 gems: [jekyll-paginate]
 paginate_path: "/page:num"
 paginate: 5
+
+timezone: EET
