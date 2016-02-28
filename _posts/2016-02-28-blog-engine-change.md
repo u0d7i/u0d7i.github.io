@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blog engine change"
-date: 2016-02-28 19:30
+date: 2016-02-28 17:30
 ---
 
 Finally migrated blog from unmainained [nanoblogger](http://nanoblogger.sourceforge.net/) to
