@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blog engine change"
-date: 2016-02-28 17:30
+date: 2016-02-28 20:30
 ---
 
 Finally migrated blog from unmainained [nanoblogger](http://nanoblogger.sourceforge.net/) to
@@ -27,4 +27,3 @@ RewriteRule rpi_rtl_sdr_and_diy_discone http://dev.lab427.net/rpi-rtl_sdr-and-di
 # the rest
 RewriteRule ^(.*)$ http://dev.lab427.net [R=301,L]
 ~~~
-
