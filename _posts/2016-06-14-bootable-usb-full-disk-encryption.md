@@ -143,6 +143,7 @@ Install, configure and install (heh, yes) grub into MBR of USB device:
 ~~~
 
 Setup initrd:
+
 ~~~
 # dd if=/dev/urandom of=/luks_keyfile.bin bs=512 count=4
 # chmod 000 /luks_keyfile.bin
@@ -171,3 +172,5 @@ Cleanup:
 # vgchange -a n vg
 # cryptsetup luksClose lvm
 ~~~
+
+References: [1](http://www.pavelkogan.com/2014/05/23/luks-full-disk-encryption/), [2](http://www.pavelkogan.com/2015/01/25/linux-mint-encryption/), [3](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system).
