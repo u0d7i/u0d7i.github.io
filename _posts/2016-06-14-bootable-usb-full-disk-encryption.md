@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bootable USB linux with full disk encryption"
-date: 2016-06-14 10:00
+date: 2016-06-14 10:22
 ---
 
 Needed a single OS environment, being able to boot on x64 corporate laptop, x86 personal netbook,
