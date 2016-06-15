@@ -30,7 +30,7 @@ Fill the media with random data. Simple
 ~~~
 
 would take too long, so can do a trick spotted [here](https://www.linux.com/blog/how-full-encrypt-your-linux-system-lvm-luks) -
-luks-encrypting it, and then filling it with zeroes, using LUSK as an entropy source which is much faster, and wiping only
+luks-encrypting it, and then filling it with zeroes, using LUKS as an entropy source which is much faster, and wiping only
 LUKS header afterwards.
 
 ~~~
