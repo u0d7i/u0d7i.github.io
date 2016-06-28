@@ -60,7 +60,7 @@ Now create  LUKS volume on USB, LVM on it, swap and root partitions on LVM:
 # mkfs.ext4 /dev/mapper/vg-root
 ~~~
 
-After mounting root partition, final hierarchy kooks like this (note UUID's for future use):
+After mounting root partition, final hierarchy looks like this (note UUID's for future use):
 
 ~~~
 # mount /dev/mapper/vg-root /mnt/
@@ -73,7 +73,7 @@ sdd            1 28.9G disk
     └─vg-root  0 27.9G lvm   /mnt       e5a91b19-fb4c-4e0a-b1f0-55e7207b1bcc
 ~~~
 
-Install debian nto /mnt via debootstrap as described [here](install debian as described in https://www.debian.org/releases/stable/i386/apds03.html):
+Install debian into /mnt via debootstrap as described [here](install debian as described in https://www.debian.org/releases/stable/i386/apds03.html):
 
 ~~~
 # apt-get install debootstrap
