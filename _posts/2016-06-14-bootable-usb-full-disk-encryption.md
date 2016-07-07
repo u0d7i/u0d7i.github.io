@@ -49,6 +49,7 @@ Older dd is missing 'status=progress' option, check dd status with 'pkill -USR1 
 Now create  LUKS volume on USB, LVM on it, swap and root partitions on LVM:
 
 ~~~
+# parted -s /dev/sdd mklabel msdos
 # parted -s /dev/sdd mkpart primary 0% 100%
 # cryptsetup luksFormat /dev/sdd1
 # cryptsetup luksOpen /dev/sdd1 lvm
