@@ -4,7 +4,7 @@ title: "Blog engine change"
 date: 2016-02-28 20:30
 ---
 
-Finally migrated blog from unmainained [nanoblogger](http://nanoblogger.sourceforge.net/) to
+Finally migrated blog from unmaintained [nanoblogger](http://nanoblogger.sourceforge.net/) to
 [jekyll](https://jekyllrb.com) + [github pages](https://pages.github.com/) +
 [custom domain](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
 
