@@ -45,7 +45,7 @@ $ picocom -c -b 9600 /dev/ttyUSB0
 Terminal ready
 ~~~
 
-Turn the switch into slave mode. It will respond to serial. Execute 'AT' command, and get the responce:
+Turn the switch into slave mode. It will respond to serial. Execute 'AT' command, and get the response:
 
 ~~~
 *** BOLUTEK SPP Bluetooth Module V2.44 Init OK in SLAVE mode!***
@@ -59,7 +59,7 @@ AT
 OK
 ~~~
 
-So, if we connect to the module direcly via serial, we are talkong to BC04-B BT transceiver part.
+So, if we connect to the module directly via serial, we are talking to BC04-B BT transceiver part.
 The list of AT commands is [available](http://www.suptronics.com/downloads/BC04-B_AT%20Command.pdf), but you
 can get the list directly from the module by issuing 'AT+HELP' :
 
