@@ -5,8 +5,8 @@ date: 2017-02-21 23:00
 ---
 
 Never thought I could fill out 2TB of local storage (I am not a multimedia person), but I finally did.
-Most of space is used by virtual machines an various lab setups. So, had to go shopping, and found out
-WD Red NAS 2TB HDDs are still most silent and price/performance option, si, bought x2.
+Most of space is used by virtual machines and various lab setups. So, had to go shopping, and found out
+WD Red NAS 2TB HDDs are still most silent and price/performance option, so, bought x2.
 
 Short log of expanding existing sw RAID1 + LVM setup with these:
 
