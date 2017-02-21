@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Expandinig storage"
+title: "Expanding storage"
 date: 2017-02-21 23:00
 ---
 
