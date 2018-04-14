@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cryotocontainer entropy tests"
+title: "Cryptocontainer entropy tests"
 date: 2018-04-14 21:00
 ---
 
