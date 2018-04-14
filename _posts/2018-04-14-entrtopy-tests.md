@@ -14,19 +14,22 @@ it took several hours. I was wondering if it's really that necessary, so, decide
 There are plenty of tools for binary data and entropy visualisation out there, I was using the
 [first google hit](http://binvis.io) for that.
 
-case 1:
+case 1:<br>
+Empty file, filled with zeros, resembling "factory format".
 ~~~
 $ dd if=/dev/zero of=test.img bs=1M count=6
 ~~~
 result: [entropy-test1.png](/img/entropy-test1.png)
 
-case 2:
+case 2:<br>
+Adding LUKS header.
 ~~~
 $ sudo cryptsetup luksFormat -q -v -d /tmp/keyfile test.img
 ~~~
 result: [entropy-test2.png](/img/entropy-test2.png)
 
-case 3:
+case 3:<br>
+Creating filesystem within encrypted container.
 ~~~
 $ sudo cryptsetup luksOpen -d /tmp/keyfile test.img test_crypt
 $ sudo mkfs.ext4 /dev/mapper/test_crypt
@@ -34,7 +37,8 @@ $ sudo cryptsetup luksClose test_crypt
 ~~~
 result: [entropy-test3.png](/img/entropy-test3.png)
 
-case 4:
+case 4:<br>
+Filling HALF of the container size with zeros via LUKS, creating FS on top.
 ~~~
 $ sudo cryptsetup luksOpen -d /tmp/keyfile test.img test_crypt
 $ sudo dd if=/dev/zero of=/dev/mapper/test_crypt bs=1M count=3
@@ -43,7 +47,10 @@ $ sudo cryptsetup luksClose test_crypt
 ~~~
 result: [entropy-test4.png](/img/entropy-test4.png)
 
-case 5 (the right way):
+case 5 (the right way):<br>
+Formatting LUKS, filling ALL the storage vis zeros via LUKS,
+killing LUKS header space via /dev/urandom, rebuilding LUKS,
+creating FS on top.
 ~~~
 $ dd if=/dev/zero of=test.img bs=1M count=6
 $ sudo losetup /dev/loop0 test.img 
