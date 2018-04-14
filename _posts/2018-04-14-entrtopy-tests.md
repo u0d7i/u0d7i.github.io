@@ -11,7 +11,7 @@ LUKS volume, and started feeding it with /dev/zero contents via dd, using LUKS i
 (it's faster than dd'ing /dev/urandom). But 128G is kin'da lot for an usb drive, so, even using this trick
 it took several hours. I was wondering if it's really that necessary, so, decided to do some syntheric tests.
 
-There are plenty of tolls for binary data and entropy visualisation out there, i was using the
+There are plenty of tolls for binary data and entropy visualisation out there, I was using the
 [first google hit](http://binvis.io) for that.
 
 case 1:
