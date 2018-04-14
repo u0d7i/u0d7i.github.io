@@ -8,10 +8,10 @@ Today I've got my new 128G USB flash drive from Hong Kong, intending to use it a
 encrypted storage. Setting up LUKS volume implies filling all the drive with random data first, to
 avoid possible statistical attack. I've plugged USB in, created random data key file, formatted the stick as
 LUKS volume, and started feeding it with /dev/zero contents via dd, using LUKS infra as an entropy source
-(it's faster than dd'ing /dev/urandom). But 128G is kin'da lot for an usb drive, so, even using this trick
+(it's faster than dd'ing /dev/urandom). But 128G is kind'a lot for an usb drive, so, even using this trick
 it took several hours. I was wondering if it's really that necessary, so, decided to do some syntheric tests.
 
-There are plenty of tolls for binary data and entropy visualisation out there, I was using the
+There are plenty of tools for binary data and entropy visualisation out there, I was using the
 [first google hit](http://binvis.io) for that.
 
 case 1:
