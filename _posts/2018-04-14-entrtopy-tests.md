@@ -26,7 +26,7 @@ $ sudo cryptsetup luksFormat -q -v -d /tmp/keyfile test.img
 ~~~
 result: [entropy-test2.png](/img/entropy-test2.png)
 
-cace 3:
+case 3:
 ~~~
 $ sudo cryptsetup luksOpen -d /tmp/keyfile test.img test_crypt
 $ sudo mkfs.ext4 /dev/mapper/test_crypt
