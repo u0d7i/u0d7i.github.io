@@ -65,11 +65,11 @@ Compare:
 <p>
 <table border="0">
 <tr>
-<td>entropy-test1.png<br><a href="/img/entropy-test1.png"><img src="/img/entropy-test1.png" width="40"/></a></td>
-<td>entropy-test2.png<br><a href="/img/entropy-test2.png"><img src="/img/entropy-test2.png" width="40"/></a></td>
-<td>entropy-test3.png<br><a href="/img/entropy-test3.png"><img src="/img/entropy-test3.png" width="40"/></a></td>
-<td>entropy-test4.png<br><a href="/img/entropy-test4.png"><img src="/img/entropy-test4.png" width="40"/></a></td>
-<td>entropy-test5.png<br><a href="/img/entropy-test5.png"><img src="/img/entropy-test6.png" width="40"/></a></td>
+<td>entropy-test1.png<br><a href="/img/entropy-test1.png"><img src="/img/entropy-test1.png" width="100"/></a></td>
+<td>entropy-test2.png<br><a href="/img/entropy-test2.png"><img src="/img/entropy-test2.png" width="100"/></a></td>
+<td>entropy-test3.png<br><a href="/img/entropy-test3.png"><img src="/img/entropy-test3.png" width="100"/></a></td>
+<td>entropy-test4.png<br><a href="/img/entropy-test4.png"><img src="/img/entropy-test4.png" width="100"/></a></td>
+<td>entropy-test5.png<br><a href="/img/entropy-test5.png"><img src="/img/entropy-test5.png" width="100"/></a></td>
 </tr>
 </table>
 </p>
